@@ -78,13 +78,11 @@ p {
   line-height: 22px;
 }
 
-a {
-  color: #dd783f;
+a { 
   text-decoration: none;
 }
 
 a:hover {
-  color: #c2581b;
   text-decoration: none;
 }
 
@@ -657,6 +655,8 @@ img {
 .footer-logo {
   text-decoration: none;
   color: #fff;
+  font-size: 16px;
+  margin: 10px;
 }
 
 .footer-logo:hover{
@@ -974,9 +974,6 @@ html.w-mod-js *[data-ix="view-more"] {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .main-section {
-    padding: 40px 10px;
-  }
   .main-section.dark {
     padding-right: 0px;
     padding-left: 0px;
@@ -1281,6 +1278,15 @@ html.w-mod-js *[data-ix="view-more"] {
 	    position: fixed;
 }
 
+.m-5 {
+	margin: 5px;
+}
+
+.p-lr-5p {
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
 .shake-me{
 	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   	transform: translate3d(0, 0, 0);
@@ -1302,5 +1308,23 @@ html.w-mod-js *[data-ix="view-more"] {
 
   40%, 60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+
+.white-font {
+	color: #fff;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+}
+
+.hideOnMobile {
+	display: block;
+}
+
+@media (min-width: 768px) {
+  .hideOnMobile {
+	display: none;
   }
 }

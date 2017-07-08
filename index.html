@@ -6,6 +6,7 @@
     <title>TinkerFest</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,17 +15,21 @@
     <div>
         <div class="navbar w-nav show-z-depth-1" data-animation="over-right" data-collapse="tiny" data-duration="400" data-ix="navbar">
             <div class="w-container">
-                <a class="logo w-nav-brand" href="template-escape_webflow_default.html">
-                    <div class="long-text">Tinker-Fest</div>
-                </a>
-                <nav class="nav-menu w-nav-menu" role="navigation">
-                    <a class="nav-link w-nav-link" href="/index.html">Home</a>
-                    <a class="nav-link w-nav-link button w-button shake-me" href="/delhi" target="_blank">Register</a>
-                </nav>
+                <div class="navbar-header">
+                  <a type="button" class="navbar-toggle  w-nav-link hideOnMobile button w-button shake-me white-font m-5" data-toggle="collapse" href="/delhi" target="_blank">Register</a>
+                  <a class="navbar-brand white-font">TinkerFest</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <div class="nav navbar-nav navbar-right">
+                    <a class="nav-link w-nav-link button w-button shake-me white-font m-5 hideOnDesktop" href="/delhi" target="_blank">Register</a>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="hero-section">
-            <div class="hero-content w-container">
+            <div class="hero-content w-container img-responsive">
             </div>
         </div>
         <div class="bottom-padding main-section" id="posts">
@@ -134,21 +139,48 @@
                     </div>
                 </div>
             </div>
-            <div class="w-container">
+            <div class="container-fluid">
                 <div class="section-heading">
-                    <h2 class="section-title">Social Media</h2>
+                    <h2 class="section-title">Facebook</h2>
                     <div class="med-divider"></div>
                 </div>
                 <div class="w-dyn-list">
                     <div class="w-clearfix w-dyn-items w-row">
-                        <div class="featuredthumbnail w-col w-col-6 w-dyn-item">
+                        <div class="featuredthumbnail w-col w-col-4 w-dyn-item">
                             <a class="featured-wrapper w-inline-block">
-                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechtopindia%2F&tabs=timeline&width=400&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=124569208145013" width="400" height="600" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNITIAayog%2F&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=124569208145013" width="350" height="500" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                             </a>
                         </div>
-                        <div class="featuredthumbnail w-col w-col-6 w-dyn-item">
+                        <div class="featuredthumbnail w-col w-col-4 w-dyn-item">
+                            <a class="featured-wrapper w-inline-block">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechtopindia%2F&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=124569208145013" width="350" height="500" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                            </a>
+                        </div>
+                        <div class="featuredthumbnail w-col w-col-4 w-dyn-item">
+                            <a class="featured-wrapper w-inline-block">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FEnCubeLab%2F&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=124569208145013" width="350" height="500" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="section-heading">
+                    <h2 class="section-title">Twitter</h2>
+                    <div class="med-divider"></div>
+                </div>
+                <div class="w-dyn-list">
+                    <div class="w-clearfix w-dyn-items w-row">
+                        <div class="featuredthumbnail w-col w-col-6 w-dyn-item p-lr-5p">
                             <a class="featured-wrapper w-inline-block" data-ix="featured-wrapper" href="http://template-escape.webflow.io/blog/from-top-down">
                                 <a class="twitter-timeline"  href="https://twitter.com/hashtag/AIMtoinnovate" data-widget-id="883616035626139648">#AIMtoinnovate Tweets</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+                            </a>
+                        </div>
+                        <div class="featuredthumbnail w-col w-col-6 w-dyn-item p-lr-5p">
+                            <a class="featured-wrapper w-inline-block" data-ix="featured-wrapper" href="http://template-escape.webflow.io/blog/from-top-down">
+                                <a class="twitter-timeline"  href="https://twitter.com/hashtag/tinkerfest" data-widget-id="883783010553823232">#tinkerfest Tweets</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           
                             </a>
@@ -162,17 +194,23 @@
                 <div class="w-container">
                     <div class="w-row">
                         <div class="w-col w-col-4 w-col-small-4">
-                            <a class="footer-logo w-inline-block" href="/index.html">
+                            <a class="footer-logo w-inline-block">
                                 © 2017 Team TinkerFest
                             </a>
                         </div>
                         <div class="footer-links w-col w-col-8 w-col-small-8">
-                        <a class="footer-link" href="https://www.facebook.com/techtopindia">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a class="footer-link" href="http://template-escape.webflow.io/categories">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a class="footer-link" href="https://www.facebook.com/techtopindia">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="http://template-escape.webflow.io/categories">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
                         </div>
                     </div>
                 </div>
