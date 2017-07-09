@@ -93,13 +93,7 @@ img {
 }
 
 .hero-section {
-  position: relative;
-  height: 560px;
-  padding-top: 184px;
-  background-image: -webkit-linear-gradient(315deg, rgba(30, 33, 33, 0) 1%, rgba(32, 32, 32, 0) 98%), url("/image/header.jpg");
-  background-image: linear-gradient(135deg, rgba(30, 33, 33, 0) 1%, rgba(32, 32, 32, 0) 98%), url("/image/header.jpg");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  padding-top: 50px;
 }
 
 .navbar {
@@ -925,7 +919,7 @@ img {
 }
 
 .section-title {
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 20px;
   line-height: 27px;
   font-weight: 400;
@@ -1027,8 +1021,7 @@ html.w-mod-js *[data-ix="view-more"] {
 
 @media (max-width: 767px) {
   .hero-section {
-    height: 440px;
-    padding-top: 162px;
+    padding-top: 80px;
   }
   .main-section {
     padding-right: 20px;
@@ -1096,8 +1089,7 @@ html.w-mod-js *[data-ix="view-more"] {
     line-height: 28px;
   }
   .hero-section {
-    height: 430px;
-    padding-top: 118px;
+    padding-top: 40px;
     padding-right: 21px;
     padding-left: 21px;
   }
