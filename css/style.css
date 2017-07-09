@@ -1274,6 +1274,10 @@ html.w-mod-js *[data-ix="view-more"] {
 	margin: 5px;
 }
 
+.m-l-20 {
+	margin-left: 20px;
+}
+
 .p-lr-5p {
 	padding-left: 5%;
     padding-right: 5%;
