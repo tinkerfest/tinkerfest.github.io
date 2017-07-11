@@ -1328,3 +1328,13 @@ html.w-mod-js *[data-ix="view-more"] {
 	display: none;
   }
 }
+ 
+.footer-links.nav>li>a:focus {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.footer-links.nav>li>a:focus{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, .6);
+}
